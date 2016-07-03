@@ -444,7 +444,7 @@ form {
       align-self: center; }
 
 .header-intro {
-  margin: 96px auto;
+  margin: 80px auto;
   padding: 8px;
   max-width: 450px;
   display: -webkit-box;
@@ -459,6 +459,9 @@ form {
       -ms-flex: 1;
           flex: 1;
   text-shadow: -1px -1px 0 #3e494d, 1px -1px 0 #3e494d, -1px 1px 0 #3e494d, 1px 1px 0 #3e494d; }
+  @media only screen and (min-width: 480px) {
+    .header-intro {
+      margin: 96px auto; } }
   @media only screen and (min-width: 768px) {
     .header-intro {
       margin: 160px auto; } }
