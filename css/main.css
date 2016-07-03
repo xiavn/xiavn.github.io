@@ -470,3 +470,19 @@ form {
         align-self: flex-end;
     color: #c56666;
     font-weight: bold; }
+
+.svg-portrait {
+  display: none;
+  width: 25%;
+  position: absolute;
+  bottom: 16px;
+  margin: 16px; }
+  @media only screen and (orientation: portrait) {
+    .svg-portrait {
+      display: inline; } }
+
+.svg-landscape {
+  display: inline; }
+  @media only screen and (orientation: portrait) {
+    .svg-landscape {
+      display: none; } }
